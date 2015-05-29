@@ -1,0 +1,13 @@
+`define UART_ADDRESS 32'h80000000
+`define UART_SIZE 32'h1000
+`define UART_DATA_REG_OFFS 32'h0
+`define DATA_OFFSET 32'h0
+`define DATA_MASK 32'hff
+`define DATA_BITS 32'h8
+`define UART_STATUS_REG_OFFS 32'h4
+`define RX_READY_OFFSET 32'h1
+`define RX_READY_MASK 32'h2
+`define RX_READY_BITS 32'h1
+`define TX_EMPTY_OFFSET 32'h0
+`define TX_EMPTY_MASK 32'h1
+`define TX_EMPTY_BITS 32'h1
